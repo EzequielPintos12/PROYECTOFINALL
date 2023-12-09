@@ -1,4 +1,5 @@
-const MyForm = () => {
+import React, {useState} from 'React';
+const Formulario = () => {
   const [values, setValues] = React.useState({
     nombre: '',
     email: '',
@@ -155,3 +156,4 @@ const MyForm = () => {
     </div>
   )
 }
+export default Formulario;
